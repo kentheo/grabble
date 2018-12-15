@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context="theofanous.kendeas.grabble.grabble.MakeWordActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginStart="100dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Value: "
+            android:textSize="35sp"/>
+
+        <TextView
+            android:layout_marginStart="120dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="45sp"
+            android:textColor="@color/BlueViolet"
+            android:id="@+id/score_value"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/myRectangleView"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="11dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/myRectangleView1"
+            android:layout_width="51dp"
+            android:layout_height="55dp"
+            android:background="@drawable/rectangle"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:id="@+id/textbox1"/>
+            </LinearLayout>
+        <LinearLayout
+            android:id="@+id/myRectangleView2"
+            android:layout_width="51dp"
+            android:layout_height="55dp"
+            android:background="@drawable/rectangle"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:id="@+id/textbox2"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/myRectangleView3"
+            android:layout_width="51dp"
+            android:layout_height="55dp"
+            android:background="@drawable/rectangle"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:id="@+id/textbox3"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/myRectangleView4"
+            android:layout_width="51dp"
+            android:layout_height="55dp"
+            android:background="@drawable/rectangle"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:id="@+id/textbox4"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/myRectangleView5"
+            android:layout_width="51dp"
+            android:layout_height="55dp"
+            android:background="@drawable/rectangle"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:id="@+id/textbox5"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/myRectangleView6"
+            android:layout_width="51dp"
+            android:layout_height="55dp"
+            android:background="@drawable/rectangle"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:id="@+id/textbox6"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/myRectangleView7"
+            android:layout_width="51dp"
+            android:layout_height="55dp"
+            android:background="@drawable/rectangle"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAlignment="center"
+                android:id="@+id/textbox7"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/table_layout"
+        android:orientation="vertical"
+        >
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:id="@+id/collected_letters"
+            android:orientation="vertical">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_a"
+                    android:id="@+id/table_a"
+                    android:tag="A"
+                    tools:ignore="ContentDescription" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_b"
+                    android:id="@+id/table_b"
+                    android:tag="B"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_c"
+                    android:id="@+id/table_c"
+                    android:tag="C"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_d"
+                    android:tag="D"
+                    android:id="@+id/table_d"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_e"
+                    android:tag="E"
+                    android:id="@+id/table_e"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_f"
+                    android:id="@+id/table_f"
+                    android:tag="F"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_g"
+                    android:id="@+id/table_g"
+                    android:tag="G"
+                    tools:ignore="ContentDescription" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_h"
+                    android:id="@+id/table_h"
+                    android:tag="H"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_i"
+                    android:id="@+id/table_i"
+                    android:tag="I"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_j"
+                    android:id="@+id/table_j"
+                    android:tag="J"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_k"
+                    android:id="@+id/table_k"
+                    android:tag="K"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_l"
+                    android:id="@+id/table_l"
+                    android:tag="L"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_m"
+                    android:id="@+id/table_m"
+                    android:tag="M"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_n"
+                    android:id="@+id/table_n"
+                    android:tag="N"
+                    tools:ignore="ContentDescription" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_o"
+                    android:id="@+id/table_o"
+                    android:tag="O"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_p"
+                    android:id="@+id/table_p"
+                    android:tag="P"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_q"
+                    android:id="@+id/table_q"
+                    android:tag="Q"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_r"
+                    android:id="@+id/table_r"
+                    android:tag="R"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_s"
+                    android:id="@+id/table_s"
+                    android:tag="S"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_t"
+                    android:tag="T"
+                    android:id="@+id/table_t"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_u"
+                    android:id="@+id/table_u"
+                    android:tag="U"
+                    tools:ignore="ContentDescription" />
+            </TableRow>
+
+            <TableRow
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_v"
+                    android:id="@+id/table_v"
+                    android:tag="V"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_w"
+                    android:id="@+id/table_w"
+                    android:tag="W"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_x"
+                    android:id="@+id/table_x"
+                    android:tag="X"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_y"
+                    android:id="@+id/table_y"
+                    android:tag="Y"
+                    tools:ignore="ContentDescription" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@mipmap/letter_z"
+                    android:id="@+id/table_z"
+                    android:tag="Z"
+                    tools:ignore="ContentDescription" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Calculate"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/calculate_value_button"
+            android:layout_margin="20dp"/>
+
+        <Button
+            android:text="Save"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/save_word_button"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="30dp"/>
+
+        <Button
+            android:text="Clear"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clear_letters_button"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="35dp"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

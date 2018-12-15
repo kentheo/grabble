@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Instructions"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:id="@+id/instructions_title"
+        android:textSize="20pt"
+        android:textColor="@color/CornflowerBlue"
+        tools:ignore="MissingConstraints" />
+<!--
+    <TextView
+        android:text="Aim"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:id="@+id/aim_title"
+        android:textSize="15pt"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:text="Create words by collecting letters
+Aim for high value words"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginStart="20dp"
+        android:id="@+id/aim_description"
+        android:textSize="12pt"
+        tools:ignore="MissingConstraints" />
+        -->
+
+    <ListView
+        android:id="@+id/instructions_list"
+        android:layout_width="match_parent"
+        android:clickable="false"
+        android:layout_margin="15dp"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>

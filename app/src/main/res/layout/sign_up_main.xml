@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="theofanous.kendeas.grabble.grabble.SignUpActivity">
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:src="@drawable/welcome"
+        android:id="@+id/welcome_img"
+        android:clickable="false"
+        android:layout_above="@+id/textView_username_signUp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp" />
+
+    <TextView
+        android:text="@string/user_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_username_signUp"
+        android:layout_centerVertical="true"
+        android:layout_toStartOf="@+id/sign_up_button_once" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText_username_signUp"
+        tools:ignore="LabelFor"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/textView_username_signUp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/editText_password_signUp"
+        tools:ignore="LabelFor"
+        android:layout_below="@+id/editText_username_signUp"
+        android:layout_alignStart="@+id/editText_username_signUp" />
+
+    <TextView
+        android:text="@string/password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView_password"
+        tools:ignore="RelativeOverlap"
+        android:layout_alignBaseline="@+id/editText_password_signUp"
+        android:layout_alignBottom="@+id/editText_password_signUp"
+        android:layout_toStartOf="@+id/editText_password_signUp" />
+
+    <Button
+        android:text="Sign up"
+        tools:background="@color/CornflowerBlue"
+        android:textAllCaps="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sign_up_button_once"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/editText_password_signUp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

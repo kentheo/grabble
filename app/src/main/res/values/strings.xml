@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Grabble</string>
+    <string name="title_activity_loading_screen">LoadingScreen</string>
+    <string name="username_text">User Name: </string>
+    <string name="password_text">Password: </string>
+    <string name="attempts_text">Attempts: </string>
+    <string name="button_login">Login</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="attempts">Attempts:</string>
+    <string name="it_s_time_to_grabble">It\'s time to Grabble</string>
+    <string name="login">Login</string>
+    <string name="password">Password:</string>
+    <string name="user_name">User Name:</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="kml_url">\"http://www.inf.ed.ac.uk/teaching/courses/selp/coursework/sunday.kml\"</string>
+    <string name="letters">Letters</string>
+    <string name="history">History</string>
+    <string name="options">Options</string>
+    <string name="scrabble_img">scrabble_img</string>
+    <string name="Instructions">Instructions</string>
+    <string name="Dictionary">Dictionary</string>
+</resources>
